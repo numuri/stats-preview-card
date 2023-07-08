@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply text-[15px] font-inter;
+  }
+}
+
+@layer components {
+  .mobile {
+    @apply bg-darkDesaturedBlue mx-auto rounded-xl overflow-hidden mb-5;
+  }
+}
+
+@layer utilities {
+  .stat {
+    @apply text-3xl font-semibold mb-1;
+  }
+
+  .stat-paragraph {
+    @apply text-slightlyTransparentWhiteStat uppercase;
+  }
+}

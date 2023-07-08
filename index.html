@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+
+    <!-- Font Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Lexend Deca -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="dist/output.css" />
+  </head>
+  <body
+    class="w-[375px] mx-auto my-24 bg-veryDarkBlue text-white md:w-[1440px]"
+  >
+    <div class="container md:w-5/6 mx-auto">
+      <div class="mobile md:flex md:rounded-lg">
+        <div
+          class="max-w-md h-72 bg-cover mb-10"
+          style="background-image: url(images/image-header-mobile.jpg)"
+        >
+          <div class="w-full h-full bg-softViolet mix-blend-multiply"></div>
+        </div>
+        <div
+          class="md:w-full md:bg-cover md:bg-no-repeat md:order-last"
+          style="background-image: url(images/image-header-desktop.jpg)"
+        >
+          <div class="w-full h-full bg-softViolet mix-blend-multiply"></div>
+        </div>
+        <div class="md:m-20">
+          <h1
+            class="text-4xl text-center mx-7 mb-5 font-bold md:text-left md:mx-0 md:text-[2.55rem] md:mb-9"
+          >
+            Get <span class="text-softViolet">insights</span> that help your
+            business grow.
+          </h1>
+          <p
+            class="text-center mx-14 text-slightlyTransparentWhiteMain mb-10 font-lexendDeca opacity-60 md:text-left md:mx-0 md:pr-28 md:mb-24"
+          >
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+          <div class="md:flex justify-evenly">
+            <div
+              class="flex flex-col items-center mb-9 md:-ml-20 md:mb-0 md:items-start"
+            >
+              <h2 class="stat">10k+</h2>
+              <p class="stat-paragraph">companies</p>
+            </div>
+            <div class="flex flex-col items-center mb-9 md:mb-0 md:items-start">
+              <h2 class="stat">314</h2>
+              <p class="stat-paragraph">templates</p>
+            </div>
+            <div
+              class="flex flex-col items-center mb-10 md:mb-0 md:items-start"
+            >
+              <h2 class="stat">12M+</h2>
+              <p class="stat-paragraph">queries</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
